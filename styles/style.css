@@ -1,5 +1,37 @@
-table {
-    color: red;
-    width: 500px;
-    border: 1px solid black;
+html { color-scheme: dark;}
+
+body {
+    color: #eee;
+    font-size: 0.85rem;
+    padding: 1rem;
+    font-family: "Gill Sans", sans-serif;
+    line-height: 0.5;
   }
+
+.wrapper {
+    width: min(900, 100% - 3rem);
+    margin: auto;
+}
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+/* Sortable tables */
+table.sortable thead {
+  background-color:#eee;
+  color:#666666;
+  font-weight: bold;
+  cursor: default;
+}
+
+th, td {
+  padding: 1rem;
+  border: 1px solid rgb(63, 63, 63);
+  border-style: dashed;
+}
+
+.side img {
+  margin-right: auto;  
+}
